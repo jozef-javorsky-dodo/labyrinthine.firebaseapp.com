@@ -1,0 +1,11 @@
+#html-body-main-table {
+    margin: 1cm 0 0 2cm !important;
+    border: 1mm solid rgb(0, 0, 0) !important;
+    border-radius: 3mm !important;
+    box-shadow: 0 0 1mm 1mm rgb(0, 0, 0) !important;
+}
+
+#html-body-main-table,
+td {
+    border-spacing: 1mm !important;
+}

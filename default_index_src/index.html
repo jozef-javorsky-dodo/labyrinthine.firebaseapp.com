@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="jozef.javorsky.dodo@gmail.com, https://github.com/jozef-javorsky-dodo">
+  <meta name="description" content="Null description yet, any content.">
+  <meta name="keywords" content="Null keywords yet, any content.">
+
+  <title>🎲 Labyrinthine ♾️</title>
+
+  <base href="/">
+
+  <link id="html-head-link-fav" rel="icon" href="_0fav.ico" type="image/x-icon" sizes="16x16">
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script>
+
+    String("use strict");
+
+    try {
+      document.querySelector(String("#html-head-link-fav"))
+        .setAttribute(
+          String(
+            "href"
+          ),
+          String(
+            "data:image/x-icon;" +
+            "base64," +
+            "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AA" +
+            "AABGdBTUEAALGPC/xhBQAAAAlwSFlzAAASdAAAEnQB3mYf" +
+            "eAAAACxJREFUOE9j+FJVBUcMxIBBqAEZILR+IU7zINQwnA" +
+            "EiKKq+QIXwA3pqqPoCAIv4W4F5t+JDAAAAAElFTkSuQmCC")
+        );
+    } catch (err) {
+
+      if (err) {
+        console.clear();
+        alert(String("bug"));
+        console.log(err);
+      };
+
+    };
+  </script>
+</body>
+
+</html>
